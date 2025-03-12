@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Urbanist", serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1440px;
+    padding-top: 25px;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    gap: 33px;
+}
+.cta{
+    padding-left: 50px;
+}
+.menu ul li button{
+    
+    background-color: #11A4EE;
+    border: none;
+    border-radius: 10px;
+    padding: 13px 24px 13px 24px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    gap: 6px;
+}
+.cta button img{
+    vertical-align: middle;
+    padding-right: 6px;
+    border: 2px;
+}
+/* =====================  Hero Section Css  =============================== */
+.hero-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hero-text{
+    padding-left: 100px;
+}
+.hero-text h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+}
+.hero-text p{
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #00000066;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.hero-img img{
+    padding-right: 100px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    
+}
+.btn{
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 290px;
+    display: flex;
+}
+.btn-one img{
+    vertical-align: middle;
+}
+.btn-one{
+    padding: 13px 24px 13px 24px;
+    color: #1587ED;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+.btn-two{
+    background-color: #11A4EE;
+    border: none;
+    border-radius: 10px;
+    padding: 13px 24px 13px 24px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.btn-two img{
+    vertical-align: middle;
+}
+    /* =========================== Work Section Start=============================  */
+.work-div{
+    background-color: #1587ED08;
+    max-width: 1440px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.work-div h2{
+    padding-top: 45px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+}
+.btn-work{
+    background-color: #11A4EE;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 28px;
+    border-radius: 10px;
+    border: none;
+    
+}
+.b{
+    padding-bottom: 50px;
+}
+.cards{
+    padding-top: 69px;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.heading2 h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #000000B2;
+}
+.card-1{
+    background-color: #FFFFFF;
+    width: 320px;
+    height: 381px;
+    border-radius: 10px 0px 0px 0px;
+    text-align: center;
+}
+.card-1 img{
+    padding-top: 29px;
+}
+.card-1 h5{
+    padding-top: 24px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #00000080;
+    line-height: 32px;
+}
+.card-1 a{
+    font-weight: 600;
+    font-size: 16px;
+    color: #1587ED;
+    
+}
+.card-1 p{
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00000099;
+    padding-bottom: 30px;
+    text-align: center;
+
+
+}
+.card-2{
+    background-color: #FFFFFF;
+    width: 320px;
+    height: 381px;
+    border-radius: 10px 0px 0px 0px;
+    text-align: center;
+   
+
+}
+.card-2 img{
+    padding-top: 29px;
+}
+.card-2 h5{
+    padding-top: 24px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #00000080;
+    line-height: 32px;
+}
+.card-2 a{
+    font-weight: 600;
+    font-size: 16px;
+    color: #1587ED;
+}
+.card-2 p{
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00000099;
+    text-align: center;
+}
+.card-3{
+    background-color: #FFFFFF;
+    width: 320px;
+    height: 381px;
+    border-radius: 10px 0px 0px 0px;
+    text-align: center;
+
+}
+.card-3 img{
+    padding-top: 29px;
+}
+.card-3 h5{
+    padding-top: 24px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #00000080;
+    line-height: 32px;
+}
+.card-3 a{
+    font-weight: 600;
+    font-size: 16px;
+    color: #1587ED;
+}
+.card-3 p{
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00000099;
+    text-align: center;
+}
+
+/* ================================= Wallet Div==========================  */
+.wallet-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+}
+.wallet-div h2{
+    font-weight: 700;
+    font-size: 48px;
+    color:  #000000B2;
+
+}
+.wallet-div-p1{
+    padding-left: 100px;
+    padding-top: 50px; 
+    text-align: center;
+    padding-bottom: 45px;
+}
+.wallet-div h2{
+    padding-top: 65px;
+   
+}
+.wallet-points-all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 40px;
+}
+.wallet-points img{
+    padding-bottom: 20px;
+}
+.wallet-text h5{
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+.wallet-text p{
+    line-height: 24px;
+    color:#00000099;
+    font-weight: 400;
+    font-size: 16px;
+}
+.wallet-text-last p{
+    padding-bottom: 69px;
+}
+.wallet-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wallet-img{
+    padding-right: 100px;
+}
+.wallet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 45px;
+}
+.card-need-1{
+    width: 320px;
+    height: 277px;
+}
+.card-need-2{
+    width: 320px;
+    height: 277px;
+}
+.card-need-3{
+    width: 320px;
+    height: 277px;
+}
+.need-help{
+    padding-bottom: 119px;
+}
+
+  /* ======================== FooTER DIV CSS  */
+.foter{
+    max-width: 1440px;
+    background-color: #1587ED;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .phone{
+    display: flex;
+    gap: 15px;
+    padding-top: 20px;
+    align-items: start;
+  }
+  .mail{
+    display: flex;
+    gap: 15px;
+    padding-top: 20px;
+    align-items: start;
+  }
+  .address{
+    display: flex;
+    gap: 15px;
+    padding-top: 20px;
+    align-items: start;
+  }
+.ftr-img img{
+    padding-top: 50px;
+}
+.ftr-img p{
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-top: 35px;
+    line-height: 24px;
+    padding-bottom: 41px;
+}
+  .footer-2{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 130px;
+    align-items: center; 
+  }
+  .f-part-1{
+    line-height: 40px;
+  }
+  .f-part-2{
+    line-height: 40px;
+  }
+  .f-part-3{
+    line-height: 40px;
+  }
+  .address-heading p{
+    padding-bottom: 72px;
+  }
+  .phone-heading h5{
+    line-height: 16px;
+    padding-bottom: 3px;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .phone-heading p{
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .mail-heading h5{
+    line-height: 16px;
+    padding-bottom: 3px;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .mail-heading p{
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .address-heading h5{
+    line-height: 16px;
+    padding-bottom: 3px;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .address-heading p{
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .f-part-1 h4{
+    font-weight: 400;
+    font-size: 20px;
+
+  }
+  .f-part-1 h5{
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .f-part-2 h4{
+    font-weight: 400;
+    font-size: 20px;
+
+  }
+  .f-part-2 h5{
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .f-part-3 h4{
+    font-weight: 400;
+    font-size: 20px;
+
+  }
+  .f-part-3 h5{
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .f-part-4 img{
+    padding-top: 100px;
+  }
+ .footer-img{
+    padding-top: 30px;
+    
+ }
+ .footer-img img{
+    padding: 3px;
+ }
+ .footer-last{
+    display: flex;
+    gap: 100px;
+ }
+ .footer-last-text p{
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 110px;
+    
+ }
